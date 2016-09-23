@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#headerContainer{
+    width: 100%;
+    background-color:#0e7d81;
+    color:white;
+    padding:10px 0 10px 0;
+}
+
+#headerContainer h1{
+    margin-left:10px;
+}
+
+#headerContainer>div{
+    display:inline-block;
+    width: 33%;
+}
+
+#logoContainer{
+    text-align: left;
+
+}
+
+#tituloContainer{
+    text-align: center;
+}
+
+#opcionesContainer{
+    text-align: right;
+}
+
+#opcionesContainer button{
+    margin-right: 10px;
+    background-color: transparent;
+    color:white;
+    font-size: 20px;
+    border:none;
+    padding:5px;
+    cursor:pointer;
+}

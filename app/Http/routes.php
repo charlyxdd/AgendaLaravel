@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inicio');
 });
+
+/*Route::group(['domain'=>'app.{dominio}'],function(){
+    Route::get('/subdominio',function($dominio){
+    });
+});*/

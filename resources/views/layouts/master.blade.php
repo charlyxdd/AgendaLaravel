@@ -13,9 +13,12 @@
         echo view('header');
     ?>
 
-    @section('cuerpo')
-    @show
+    <div id="cuerpo">
+        @section('cuerpo')
+        @show
+    </div>
 
+    <script src="<?php echo url('js/jquery.js'); ?>"></script>
     @section('js')
     @show
 </body>

@@ -7,7 +7,7 @@
 @section('cuerpo')
     <div id="registroContainer">
         <div class="container">
-            <div id="formContainer" class="slideItem">
+            <div id="formContainer" class="slideItem activo">
                 <div>
                     <h2>Regístrate!</h2>
                     <form action="" method="post" id="frmRegistro">
@@ -27,7 +27,7 @@
                     </form>
                 </div>
             </div>
-            <div class="slideItem">
+            <div class="slideItem activo">
                 <div>
                     <h2>Paquetes</h2>
 
@@ -84,4 +84,8 @@
             </div>
         </div>
     </div>
+@endsection
+
+@section('js')
+    <script src="<?php echo url('js/inicio.js'); ?>"></script>
 @endsection

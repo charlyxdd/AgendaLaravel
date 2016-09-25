@@ -1,7 +1,13 @@
+#cuerpo{
+    width: 100%;
+    overflow: hidden;
+}
+
 .slideItem{
     display: inline-block;
     width: 100%;
     vertical-align: top;
+    position:absolute;
 }
 
 .slideItem>div{
@@ -25,7 +31,7 @@
     cursor:pointer;
 }
 
-.activo{
+.cmdItem.activo{
     background-color: #0e7d81;
 }
 

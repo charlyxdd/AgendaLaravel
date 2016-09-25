@@ -7,7 +7,7 @@
 @section('cuerpo')
     <div id="registroContainer">
         <div class="container">
-            <div id="formContainer" class="slideItem activo">
+            <!--<div id="formContainer" class="slideItem activo">
                 <div>
                     <h2>Regístrate!</h2>
                     <form action="" method="post" id="frmRegistro">
@@ -26,17 +26,67 @@
                         <input type="submit" value="Registrarme" id="cmdRegistro">
                     </form>
                 </div>
-            </div>
+            </div>!-->
             <div class="slideItem activo">
                 <div>
                     <h2>Paquetes</h2>
-
+                    <div id="paquetesContainer">
+                        <div class="menor" id="gratuito">
+                            <h4>Gratuito</h4>
+                            <div>
+                                <div>
+                                    <p class="punto">Publicidad</p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/si.png')?>">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">Notas con dibujos</p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/no.png')?>">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">Tareas y actividades</p>
+                                    <p class="estado">20/sem</p>
+                                </div>
+                                <div>
+                                    <p class="punto">Personalizable</p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/no.png')?>">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">Planificación de proyecto</p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/no.png')?>">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">
+                                        Cálculo de calificaciones
+                                    </p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/no.png')?>">
+                                    </p>
+                                </div>
+                            </div>
+                            <button id="cmdRegistro">
+                                Gratis
+                            </button>
+                        </div>
+                        <div class="mayor">
+                            <h4>Mensual</h4>
+                        </div>
+                        <div class="menor">
+                            <h4>Módulos</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="cmdsContainer">
             <div class="cmdItem activo"></div>
-            <div class="cmdItem"></div>
         </div>
     </div>
     <div id="infoContainer">

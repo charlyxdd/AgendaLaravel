@@ -7,12 +7,62 @@
     display: inline-block;
     width: 100%;
     vertical-align: top;
-    position:absolute;
+    text-align: center;
 }
 
 .slideItem>div{
     width: 80%;
     margin:auto;
+}
+
+#paquetesContainer>div{
+    display: inline-block;
+    vertical-align: middle;
+    background-color:rgba(14,125,129,0.8);
+    margin:10px -3px 10px -3px;
+    border:1px solid black;
+    padding:10px 0;
+}
+
+.menor{
+    height: 300px;
+    width: 25%;
+}
+
+.menor>div{
+    margin-top:20px;
+}
+
+.menor p{
+    display: inline-block;
+    margin:0;
+    vertical-align: middle;
+}
+
+.menor>div>div{
+    padding:5px 0 5px 0;
+    border-bottom:1px solid black;
+}
+
+.punto{
+    width: 75%;
+    text-align: left;
+}
+
+.estado{
+    width: 15%;
+    overflow: hidden;
+    font-size: 13px;
+    text-align: center;
+}
+
+.estado img{
+    height: 20px;
+}
+
+.mayor{
+    height: 350px;
+    width: 35%;
 }
 
 #cmdsContainer{
@@ -70,12 +120,14 @@
     border:none;
     background:#0e7d81;
     color:white;
-    padding:10px;
-    border-radius: 10px;
+    padding:5px;
     font-size: 20px;
     display: block;
     margin:auto;
+    margin-top:5px;
     cursor:pointer;
+    width: 80%;
+    
 }
 
 #cmdRegistro:hover{

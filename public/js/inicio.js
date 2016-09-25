@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    cargarSlide();
+    //cargarSlide();
 });
 
 function cargarSlide(){

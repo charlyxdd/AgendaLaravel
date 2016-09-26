@@ -29,17 +29,17 @@
     width: 25%;
 }
 
-.menor>div{
-    margin-top:20px;
+.menor>div, .mayor>div{
+    margin-top:10px;
 }
 
-.menor p{
+.menor p,.mayor p{
     display: inline-block;
     margin:0;
     vertical-align: middle;
 }
 
-.menor>div>div{
+.menor>div>div, .mayor>div>div{
     padding:5px 0 5px 0;
     border-bottom:1px solid black;
 }
@@ -116,7 +116,9 @@
     padding:5px;
 }
 
-#cmdRegistro{
+.cmdRegistro{
+    position:relative;
+    bottom:0;
     border:none;
     background:#0e7d81;
     color:white;
@@ -130,11 +132,15 @@
     
 }
 
-#cmdRegistro:hover{
+.cmdRegistro:hover{
     transition: background-color 0.1s linear;
     transition: color 0.2s linear;
     background-color: white;
     color:#0e7d81;
+}
+
+.mayor .cmdRegistro{
+    bottom:-30px;
 }
 
 #infoContainer{

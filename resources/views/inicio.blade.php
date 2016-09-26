@@ -71,15 +71,100 @@
                                     </p>
                                 </div>
                             </div>
-                            <button id="cmdRegistro">
+                            <button class="cmdRegistro">
                                 Gratis
                             </button>
                         </div>
                         <div class="mayor">
                             <h4>Mensual</h4>
+                            <div>
+                                <div>
+                                    <p class="punto">Publicidad</p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/no.png')?>">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">Notas con dibujos</p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/si.png')?>">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">Tareas y actividades</p>
+                                    <p class="estado">Ilimitados</p>
+                                </div>
+                                <div>
+                                    <p class="punto">Personalizable</p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/si.png')?>">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">Planificación de proyecto</p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/si.png')?>">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">
+                                        Cálculo de calificaciones
+                                    </p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/si.png')?>">
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="cmdRegistro">
+                                $40/Mes
+                            </button>
                         </div>
                         <div class="menor">
                             <h4>Módulos</h4>
+
+                            <div>
+                                <div>
+                                    <p class="punto">Publicidad</p>
+                                    <p class="estado">
+                                        <img src="<?php echo url('img/no.png')?>">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">Notas con dibujos</p>
+                                    <p class="estado">
+                                        $10 <input type="checkbox" id="chkNotas">
+
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">Tareas y actividades</p>
+                                    <p class="estado">Ilimitados</p>
+                                </div>
+                                <div>
+                                    <p class="punto">Personalizable</p>
+                                    <p class="estado">
+                                        $5 <input type="checkbox" id="chkPersonalizable">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">Planificación de proyecto</p>
+                                    <p class="estado">
+                                        $15 <input type="checkbox" id="chkPlanificacion">
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="punto">
+                                        Cálculo de calificaciones
+                                    </p>
+                                    <p class="estado">
+                                        $15 <input type="checkbox" id="chkCalif">
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="cmdRegistro variable">
+                                $<span>0</span>/mes
+                            </button>
+
                         </div>
                     </div>
                 </div>

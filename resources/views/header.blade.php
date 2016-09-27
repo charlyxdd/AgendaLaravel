@@ -6,6 +6,6 @@
         <h1>Bienvenido</h1>
     </div>
     <div id="opcionesContainer">
-        <button>Acceso</button>
+        <button id="cmdAcceso">Acceso</button>
     </div>
 </div>

@@ -1,16 +1,16 @@
 var storage;
-
+var dominio="http://localhost:8080/AgendaLaravel/public/"
 $(document).ready(function(){
     iniciarApp();
 });
 
 function iniciarApp(){
-    var a;
+   /* var a;
     var u;
 
     /*********************************\
      * obtener header
-     */
+
     a= $.ajax({
         url:conf.vistas + conf.header
     });
@@ -25,7 +25,7 @@ function iniciarApp(){
 
     /*****************************\
      * Determinar storage y cuerpo
-     */
+
     u=determinarStorage();
 
     a= $.ajax({
@@ -43,7 +43,7 @@ function iniciarApp(){
 
     /*********************************\
      * obtener footer
-     */
+
 
     a= $.ajax({
         url:conf.vistas + conf.footer
@@ -55,6 +55,17 @@ function iniciarApp(){
 
     a.fail(function(){
         $('#footer').html("Ha ocurrido un error al cargar informaci&oacuten");
+    });
+
+
+    /*******************\
+     * Listeners
+     */
+
+
+
+    $('#cmdAcceso').click(function(){
+        location.href='login';
     });
 }
 

@@ -19,6 +19,7 @@
     </div>
 
     <script src="<?php echo url('js/jquery.js'); ?>"></script>
+    <script src="<?php echo url('js/main.js');?>"></script>
     @section('js')
     @show
 </body>

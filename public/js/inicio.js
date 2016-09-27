@@ -3,6 +3,7 @@ var precio=0;
 $(document).ready(function(){
     //cargarSlide();
     calcularPrecio();
+    redireccionar();
 });
 
 function cargarSlide(){
@@ -101,4 +102,41 @@ function calcularPrecio(){
         $(document.getElementsByClassName('variable').item(0)).children('span').html(precio);
     });
 
+}
+
+function redireccionar(){
+    $('#cmdGratis').click(function(){
+        location.href='registro/gratis';
+    });
+
+    $('#cmdMes').click(function(){
+        location.href='registro/mes';
+    });
+
+    $('#cmdModulo').click(function(){
+        if(precio>0){
+            var modulos="";
+            var chkNotas=$('#chkNotas');
+            var chkPersonalizable=$('#chkPersonalizable');
+            var chkPlanificacion=$('#chkPlanificacion');
+            var chkCalif=$('#chkCalif');
+            if(chkNotas.prop('checked')){
+                modulos+="1";
+            }
+            if(chkPersonalizable.prop('checked')){
+                modulos+="2";
+            }
+            if(chkPlanificacion.prop('checked')){
+                modulos+="3";
+            }
+            if(chkCalif.prop('checked')){
+                modulos+="4";
+            }
+
+            location.href='registro/modulos/' + modulos;
+        }
+        else{
+            alert("Por lo menos debe seleccionar un módulo");
+        }
+    });
 }

@@ -71,12 +71,12 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="cmdRegistro">
+                            <button class="cmdRegistro" id="cmdGratis">
                                 Gratis
                             </button>
                         </div>
                         <div class="mayor">
-                            <h4>Mensual</h4>
+                            <h4>Full</h4>
                             <div>
                                 <div>
                                     <p class="punto">Publicidad</p>
@@ -115,8 +115,8 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="cmdRegistro">
-                                $40/Mes
+                            <button class="cmdRegistro" id="cmdMes">
+                                $40/mes
                             </button>
                         </div>
                         <div class="menor">
@@ -161,7 +161,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="cmdRegistro variable">
+                            <button class="cmdRegistro variable" id="cmdModulo">
                                 $<span>0</span>/mes
                             </button>
 
